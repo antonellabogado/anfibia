@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" yes="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="https://www.revistaanfibia.com/wp-yes/uploads/2021/09/favicon.png" sizes="32x32">
+
+    <title>Cine Anfibio: concurso de proyectos</title>
+</head>
+
+<body>
+    <div class="noise d-flex flex-column justify-content-between position-relative overflow-hidden">
+        <div class="background">
+            <!-- HEADER -->
+            <header class="d-flex justify-content-center align-items-center">
+                <div class="logo"></div>
+            </header>
+
+            <!-- PORTADA -->
+            <section id="cover" class="d-flex flex-column align-items-start">
+                <div>
+                    <h1 class="text-uppercase">Cine Anfibio</h1>
+                    <h2 class="text-uppercase">Concurso de proyectos</h2>
+                </div>
+                <p class="desktop-only">Si sos apasionadx del cine o trabajas en el área, ¡no te pierdas esta increíble
+                    oportunidad!<br>¡Podrás publicar tu propio análisis en nuestra nueva sección sobre cine.</p>
+                <div class="mobile-only">
+                    <p class="mb-5">Si sos apasionadx del cine o trabajas en el área, ¡no te pierdas esta increíble
+                        oportunidad!</p>
+                    <p>¡Podrás publicar tu propio análisis en nuestra nueva sección sobre cine.</p>
+                </div>
+                <button type="button" class="cta text-uppercase">Participar</button>
+            </section>
+
+            <!-- SECCIÓN 1 -->
+            <section id="section1" class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 item1">
+                        <h3 class="text-uppercase accent">Abierto al público</h3>
+                        <p>Pueden participar periodistas, académicxs, estudiantes y todas las personas mayores de 18
+                            años que quieran compartir su pasión por el cine.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 item2">
+                        <h3 class="text-uppercase accent">Tres seleccionadxs</h3>
+                        <p>Un comité formado por profesionales de Revista Anfibia seleccionará las 3 mejores ideas.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 item3">
+                        <h3 class="text-uppercase accent">Taller de escritura</h3>
+                        <p>Lxs seleccionadxs participarán gratis del Taller de Escritura sobre Cine dictado por Ofelia
+                            Meza y Milagros Villar, donde terminarán trabajar su texto.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCION CTA -->
+            <section class="section-cta first-cta d-flex justify-content-center position-relative">
+                <img class="ellipse up position-absolute" src="./img/ellipse1.png" alt="Gradiente">
+                <div class="d-flex align-items-center gap-5">
+                    <h3 class="text-uppercase">Se parte de<br>Revista Anfibia</h3>
+                    <button type="button" class="cta text-uppercase">Participar</button>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 2 -->
+            <section id="section2" class="d-flex flex-column align-items-center">
+                <h3 class="text-uppercase">Nueva sección para lxs amantes del cine</h3>
+                <p>Tus películas y series favoritas desde una mirada anfibia.</p>
+
+                <div id="carouselExampleIndicators" class="carousel slide desktop-only" data-bs-theme="dark">
+                    <div class="carousel-inner d-flex column-gap-5">
+                        <div class="carousel-item active">
+                            <div id="first-cards-container"
+                                class="cards-wrapper d-flex justify-content-center column-gap-5">
+                                <div class="card">
+                                    <img class="card-img" src="./img/aftersun.png" alt="Aftersun">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/aftersun-ojos-de-video-tape/" target="_blank">
+                                        <p class="card-text mb-2">Aftersun</p>
+                                        <h4 class="card-title text-uppercase">Ojos de video tape</h4>
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img" src="./img/gambito_de_dama.png" alt="Gambito de Dama">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/gambito-de-dama-ni-puta-ni-santa-ajedrecista/"
+                                        target="_blank">
+                                        <p class="card-text mb-2">Gambito de Dama</p>
+                                        <h4 class="card-title text-uppercase">Ni puta ni santa: ajedrecista</h4>
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img" src="./img/euphoria.png" alt="Euphoria">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/euphoria-el-amor-nunca-esta-sobrio/"
+                                        target="_blank">
+                                        <p class="card-text mb-2">Euphoria</p>
+                                        <h4 class="card-title text-uppercase">El amor nunca está sobrio</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="second-cards-container"
+                                class="cards-wrapper d-flex justify-content-center column-gap-5">
+                                <div class="card">
+                                    <img class="card-img" src="./img/drive_my_car.png" alt="Drive My Car">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/drive-my-car-el-silencio-tiene-accion/"
+                                        target="_blank">
+                                        <p class="card-text mb-2">Drive My Car</p>
+                                        <h4 class="card-title text-uppercase">El silencio tiene acción</h4>
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img" src="./img/better_call_saul.png" alt="Better Call Saul">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/better-call-saul-un-mundo-para-ellos-dos/"
+                                        target="_blank">
+                                        <p class="card-text mb-2">Adiós a Saul Goodman y Kim Wexler</p>
+                                        <h4 class="card-title text-uppercase">Un mundo para ellos dos</h4>
+                                    </a>
+                                </div>
+                                <div class="card">
+                                    <img class="card-img" src="./img/house_of_the_dragon.png" alt="Euphoria">
+                                    <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                        href="https://www.revistaanfibia.com/house-of-the-dragon-rhaenyra-la-del-barrio/"
+                                        target="_blank">
+                                        <p class="card-text mb-2">House of the Dragon</p>
+                                        <h4 class="card-title text-uppercase">Rhaenyra la del barrio</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+                <div id="carouselExampleIndicators2" class="carousel slide mobile-only" data-bs-theme="dark">
+                    <div class="carousel-inner d-flex align-items-center column-gap-3">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <img class="card-img" src="./img/aftersun.png" alt="Aftersun">
+                                <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                    href="https://www.revistaanfibia.com/aftersun-ojos-de-video-tape/" target="_blank">
+                                    <p class="card-text mb-2">Aftersun</p>
+                                    <h4 class="card-title text-uppercase">Ojos de video tape</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <img class="card-img" src="./img/gambito_de_dama.png" alt="Gambito de Dama">
+                                <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                    href="https://www.revistaanfibia.com/gambito-de-dama-ni-puta-ni-santa-ajedrecista/"
+                                    target="_blank">
+                                    <p class="card-text mb-2">Gambito de Dama</p>
+                                    <h4 class="card-title text-uppercase">Ni puta ni santa: ajedrecista</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <img class="card-img" src="./img/euphoria.png" alt="Euphoria">
+                                <a class="card-img-overlay d-flex flex-column justify-content-end p-4"
+                                    href="https://www.revistaanfibia.com/euphoria-el-amor-nunca-esta-sobrio/"
+                                    target="_blank">
+                                    <p class="card-text mb-2">Euphoria</p>
+                                    <h4 class="card-title text-uppercase">El amor nunca está sobrio</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- SECCIÓN CTA -->
+            <section class="section-cta second-cta d-flex justify-content-center position-relative">
+                <img class="ellipse down position-absolute" src="./img/ellipse2.png" alt="Gradiente">
+                <div class="d-flex align-items-center gap-5">
+                    <h3 class="text-uppercase">Tu texto también<br>puede estar acá</h3>
+                    <button type="button" class="cta text-uppercase">Participar</button>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 3 -->
+            <section id="section3" class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-12 col-md-6 ask1">
+                        <h3 class="text-uppercase accent">¿Cómo participar?</h3>
+                        <p>Hacé click en 'Participar' y completá el formulario con tus datos personales.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 ask2">
+                        <h3 class="text-uppercase accent">¿Hasta cuándo hay tiempo?</h3>
+                        <p>Las inscripciones están abiertas hasta el viernes 30 de Junio 23:59hs (Arg).</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 ask3">
+                        <h3 class="text-uppercase accent">¿Cómo se si quedé seleccionadx?</h3>
+                        <p>El viernes 14 de Julio anunciaremos a lxs tres seleccionadxs en esta misma página, y le
+                            enviaremos un mail a cada unx.</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 ask4">
+                        <h3 class="text-uppercase accent">¿Cómo se cursa el taller?</h3>
+                        <p>El taller tiene una modalidad virtual. Son 4 encuentros sincrónicos de 2 horas semanales cada
+                            uno
+                            y se dicta los miércoles de 18 a 20hs. </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="d-flex flex-column align-items-center">
+        <p>¿Te quedaron dudas?<br class="mobile-only"> Comunicate a<a href="mailto:cineanfibio@gmail.com">
+                cineanfibio@gmail.com</a></p>
+        <div class="d-flex justify-content-between">
+            <div class="rrss">
+                <a href="https://twitter.com/revistaanfibia" target="_blank"><img src="./img/tw.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/RevistaAnfibia" target="_blank"><img src="./img/fb.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/revistaanfibia/" target="_blank"><img src="./img/ig.png"
+                        alt="Instagram"></a>
+                <a href="https://www.youtube.com/@RevistaAnfibia" target="_blank"><img src="./img/yt.png"
+                        alt="Youtube"></a>
+            </div>
+            <div>
+                <img src="./img/logo_footer.png" alt="Revista Anfibia">
+                <img src="./img/cronos.png" alt="Cronos laboratorio de medios">
+            </div>
+        </div>
+    </footer>
+
+    <!-- POPUP FORM -->
+    <!-- PASO 1 -->
+    <div
+        class="popup-container step1 d-none d-flex flex-column justify-content-center align-items-center position-fixed">
+        <div class="popup d-flex flex-column position-relative">
+            <div class="popup-header d-flex justify-content-between align-items-center">
+                <h4 class="text-uppercase">Se parte de Anfibia</h4>
+                <a href="#" class="close-popup">X</a>
+            </div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <form id="step1" class="container-fluid d-flex flex-column">
+                <div class="row g-5">
+                    <div class="col-md-6 col-sm-12">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" id="name" class="form-control" required />
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <label for="lastname" class="form-label">Apellido</label>
+                        <input type="text" id="lastname" class="form-control" required />
+                    </div>
+                    <div class="col-sm-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" required />
+                    </div>
+                    <div class="col-12">
+                        <label for="birthdate" class="form-label">Fecha de nacimiento</label>
+                        <input type="date" id="birthdate" class="form-control" required />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="submit" class="cta">Continuar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- PASO 2 -->
+    <div
+        class="popup-container step2 d-none d-flex flex-column justify-content-center align-items-center position-fixed">
+        <div class="popup d-flex flex-column position-relative">
+            <div class="popup-header d-flex justify-content-between align-items-center">
+                <h4 class="text-uppercase">Se parte de Anfibia</h4>
+                <a href="#" class="close-popup">X</a>
+            </div>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <form id="step2" class="container-fluid d-flex flex-column">
+                <div class="row g-5">
+                    <div class="col-sm-12">
+                        <label for="ocupation" class="form-label">Ocupación</label>
+                        <input type="text" id="ocupation" class="form-control" required />
+                    </div>
+                    <div class="col-sm-12">
+                        <p>¿Publicas contenido escrito en alguna red social o medio?</p>
+                        <div class="row d-flex row-gap-3">
+                            <div class="col-6">
+                                <input type="radio" class="btn-check" name="options-outlined" id="yes"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-dark" for="yes">Si</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="radio" class="btn-check" name="options-outlined" id="no"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-dark" for="no">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <label for="link" class="form-label">Si es así, dejanos el link (Opcional)</label>
+                        <input type="text" id="text" class="form-control" />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="submit" class="cta">Participar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- FEEDBACK -->
+    <div
+        class="popup-container feedback d-none d-flex flex-column justify-content-center align-items-center position-fixed">
+        <div class="popup d-flex flex-column position-relative">
+            <div class="popup-header d-flex justify-content-end align-items-center">
+                <a href="#" class="close-popup">X</a>
+            </div>
+            <div class="feedback-body d-flex flex-column justify-content-center align-items-center">
+                <h3 class="text-uppercase">¡Gracias por participar, <span id="nameData"></span>!</h3>
+                <p class="text-center">Ya estás un paso más cerca de formar parte de Revista Anfibia.</p>
+                <img src="./img/feedback.png" alt="">
+                <p class="text-center">En breve te enviaremos un mail a <span id="emailData"></span> con la información
+                    para continuar con tu inscripción.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
